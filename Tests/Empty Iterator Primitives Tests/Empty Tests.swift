@@ -1,5 +1,5 @@
-import Testing
 import Empty_Iterator_Primitives
+import Testing
 
 @Suite("Empty Iterator Tests")
 struct EmptyIteratorTests {

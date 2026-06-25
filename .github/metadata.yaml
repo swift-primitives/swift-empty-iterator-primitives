@@ -1,0 +1,9 @@
+# .github/metadata.yaml
+description: "The iterator-domain conformance for Empty: the zero-element iterator whose next() is always nil."
+topics:
+  - primitives
+  - iterator
+  - empty
+homepage: "https://swift-institute.org"
+readme:
+  family: E

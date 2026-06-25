@@ -18,8 +18,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(path: "../swift-empty-primitives"),
-        .package(path: "../swift-iterator-primitives"),
+        .package(url: "https://github.com/swift-primitives/swift-empty-primitives.git", branch: "main"),
+        .package(url: "https://github.com/swift-primitives/swift-iterator-primitives.git", branch: "main"),
     ],
     targets: [
         .target(

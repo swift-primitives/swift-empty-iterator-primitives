@@ -18,6 +18,7 @@
 // `Iterator.`Protocol`` (swift-iterator-primitives), so the cross-package conformance is
 // retroactive by definition.
 extension Empty: @retroactive Iterator.`Protocol` where Element: ~Copyable & ~Escapable {
+    /// The error type of iteration; `Never`, since the empty iterator can never fail.
     public typealias Failure = Never
 
     /// Always returns `nil`; the empty iterator is exhausted from construction.
